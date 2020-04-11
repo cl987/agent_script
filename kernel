@@ -8,3 +8,7 @@ lscpu
 lsblk
 uname -r
 iostat
+cat /proc/meminfo
+cat /proc/cpuinfo
+lsb_release -a
+
