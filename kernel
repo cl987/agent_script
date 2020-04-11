@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ ${uid} -ne 0 ]]
+then
+echo "accsess root pass"
+fi
+lscpu
+lsblk
+uname -r
